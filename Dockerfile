@@ -11,7 +11,8 @@ RUN set -x \
         build-base \
         git \
         libtool \
-        protobuf-dev \ 
+        protobuf-dev \
+        cmake \
     && git clone  https://github.com/google/sentencepiece \
     && cd sentencepiece \
     && mkdir build \
