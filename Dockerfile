@@ -14,7 +14,7 @@ RUN set -x \
         protobuf-dev \ 
     && git clone  https://github.com/google/sentencepiece \
     && cd sentencepiece \
-    && mkdir bubild \
+    && mkdir build \
     && cd build \
     && cmake .. \
     && make -j $(nproc) \
